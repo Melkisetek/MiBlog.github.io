@@ -54,6 +54,10 @@ body{
     
 }
 
+/*icono menu*/
+.contenedor nav .menu{
+    display: none;
+}
 
 
 
@@ -67,8 +71,8 @@ body{
 
     
 }
-
-.contenedor nav::after{
+/*after*/
+.contenedor nav .line{
     content: "";
     background: #cfcfcf;
     width: 100%;
@@ -428,3 +432,49 @@ footer .redesSociales .gitHub:hover{background: #17202A;}
 footer .redesSociales .deviantart:hover{background: #05CC46;}
 footer .redesSociales .instagram:hover{background:  #e1306c;}
 
+/* Diseño Responsivo */
+
+@media screen and (max-width:720px) {
+    header .tituloPrincipal{
+        display: none;
+       
+    }
+
+    .contenedor nav{
+        position: relative;
+        height: 300px;
+        max-height: 300px;
+        background: #F8F9F9;
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .contenedor nav .menu{
+        display: inline;
+        cursor: pointer;
+        border-style: none;
+        font-size: 45px;
+        background: none;
+        color: #ff8000;
+        position: absolute;
+        right: 0;
+        top: 0;
+        
+    }
+
+    
+
+    /*Ocultar*/
+    .contenedor .slider{display: none;}
+    .contenedor nav .line{
+        display: none;
+        clear: both;
+        all: unset; 
+    }
+
+
+
+
+
+
+}
