@@ -433,48 +433,154 @@ footer .redesSociales .deviantart:hover{background: #05CC46;}
 footer .redesSociales .instagram:hover{background:  #e1306c;}
 
 /* Diseño Responsivo */
-
-@media screen and (max-width:720px) {
-    header .tituloPrincipal{
+@media screen and (max-width: 720px) {
+    header .tituloPrincipal {
         display: none;
-       
     }
 
-    .contenedor nav{
-        position: relative;
-        height: 300px;
-        max-height: 300px;
-        background: #F8F9F9;
-        width: 100%;
+    .contenedor nav {
+        height: auto;
         flex-direction: column;
-        flex-wrap: nowrap;
+        align-items: flex-start;
+        padding: 10px;
     }
-    .contenedor nav .menu{
+
+    .contenedor nav .menu {
         display: inline;
         cursor: pointer;
-        border-style: none;
-        font-size: 45px;
-        background: none;
+        font-size: 55px;
         color: #ff8000;
         position: absolute;
         right: 0;
         top: 0;
-        
+        background: none;
+        border-style: none;
+        z-index: 100;
     }
 
-    
-
-    /*Ocultar*/
-    .contenedor .slider{display: none;}
-    .contenedor nav .line{
+    .contenedor nav label {
         display: none;
-        clear: both;
-        all: unset; 
     }
 
+    .contenedor nav .line {
+        display: none;
+    }
 
+    .contenedor nav .slider {
+        display: none;
+    }
 
-
-
-
+    .contenedor nav input[type="radio"]:checked ~ label {
+        display: block;
+        width: 100%;
+        text-align: left;
+        padding: 10px;
+    }
 }
+
+/*main*/
+@media screen and (max-width: 720px) {
+    main {
+        width: 100%;
+        padding: 10px;
+    }
+
+    section .contenido .titulo {
+        font-size: 18px;
+    }
+
+    section .contenido .subtitulo {
+        font-size: 16px;
+    }
+
+    .contenido .miFoto {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .contenido-2 {
+        width: 100%;
+        left: 0;
+        padding: 10px;
+    }
+
+    .contenido-2 .img .thumb {
+        width: 45%;
+        margin: 5px;
+    }
+
+    .contenido-2 .lenguajes,
+    .contenido-2 .softwareHerramientas,
+    .contenido-2 .development,
+    .contenido-2 .hosting,
+    .contenido-2 .dataBase,
+    .contenido-2 .extras {
+        padding-left: 20px;
+    }
+}
+
+/* formularios*/
+@media screen and (max-width: 720px) {
+    .contacto .formulario input[type="text"],
+    .contacto .formulario input[type="email"] {
+        width: 100%;
+    }
+
+    .contacto .formulario textarea {
+        width: 100%;
+    }
+}
+
+/*footer*/
+@media screen and (max-width: 720px) {
+    footer .redesSociales .enlaces a {
+        font-size: 30px;
+        margin: 0 10px;
+    }
+}
+
+/*ajustes generales*/
+@media screen and (max-width: 720px) {
+    body {
+        font-size: 14px;
+    }
+
+    .contenedor {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+/*ajustar imagenes*/
+@media screen and (max-width: 720px) {
+    .contenido-2 .img .thumb {
+        width: 45%;
+        margin: 5px;
+    }
+}
+
+/*texto*/
+@media screen and (max-width: 720px) {
+    body {
+        font-size: 14px;
+    }
+
+    section .contenido .titulo {
+        font-size: 18px;
+    }
+
+    section .contenido .subtitulo {
+        font-size: 16px;
+    }
+}
+/*asegurar header*/
+@media screen and (max-width: 720px) {
+    header {
+        padding: 10px;
+    }
+
+    .tituloPrincipal {
+        font-size: 16px;
+    }
+}
+
