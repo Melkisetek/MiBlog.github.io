@@ -433,7 +433,7 @@ footer .redesSociales .deviantart:hover{background: #05CC46;}
 footer .redesSociales .instagram:hover{background:  #e1306c;}
 
 /* Diseño Responsivo */
-@media screen and (max-width: 720px) {
+@media (max-width: 720px) {
     header .tituloPrincipal {
         display: none;
     }
@@ -479,7 +479,7 @@ footer .redesSociales .instagram:hover{background:  #e1306c;}
 }
 
 /*main*/
-@media screen and (max-width: 720px) {
+@media (max-width: 720px) {
     main {
         width: 100%;
         padding: 10px;
@@ -494,7 +494,7 @@ footer .redesSociales .instagram:hover{background:  #e1306c;}
     }
 
     .contenido .miFoto {
-        width: 80%;
+        width: 35%;
         margin-top: 20px;
     }
 
@@ -520,7 +520,7 @@ footer .redesSociales .instagram:hover{background:  #e1306c;}
 }
 
 /* formularios*/
-@media screen and (max-width: 720px) {
+@media (max-width: 720px) {
     .contacto .formulario input[type="text"],
     .contacto .formulario input[type="email"] {
         width: 100%;
@@ -532,7 +532,7 @@ footer .redesSociales .instagram:hover{background:  #e1306c;}
 }
 
 /*footer*/
-@media screen and (max-width: 720px) {
+@media (max-width: 720px) {
     footer .redesSociales .enlaces a {
         font-size: 30px;
         margin: 0 10px;
@@ -540,7 +540,7 @@ footer .redesSociales .instagram:hover{background:  #e1306c;}
 }
 
 /*ajustes generales*/
-@media screen and (max-width: 720px) {
+@media (max-width: 720px) {
     body {
         font-size: 14px;
     }
@@ -552,7 +552,7 @@ footer .redesSociales .instagram:hover{background:  #e1306c;}
 }
 
 /*ajustar imagenes*/
-@media screen and (max-width: 720px) {
+@media (max-width: 720px) {
     .contenido-2 .img .thumb {
         width: 45%;
         margin: 5px;
@@ -560,7 +560,7 @@ footer .redesSociales .instagram:hover{background:  #e1306c;}
 }
 
 /*texto*/
-@media screen and (max-width: 720px) {
+@media (max-width: 720px) {
     body {
         font-size: 14px;
     }
@@ -574,7 +574,7 @@ footer .redesSociales .instagram:hover{background:  #e1306c;}
     }
 }
 /*asegurar header*/
-@media screen and (max-width: 720px) {
+@media (max-width: 720px) {
     header {
         padding: 10px;
     }
