@@ -439,13 +439,16 @@ footer .redesSociales .instagram:hover{background:  #e1306c;}
     }
 
     .contenedor nav {
+        display: none;
         height: auto;
         flex-direction: column;
         align-items: flex-start;
         padding: 10px;
     }
 
-    .contenedor nav .menu {
+    .contenedor .menu {
+        margin-right:30px;
+        margin-top: 30px;
         display: inline;
         cursor: pointer;
         font-size: 55px;
@@ -458,9 +461,9 @@ footer .redesSociales .instagram:hover{background:  #e1306c;}
         z-index: 100;
     }
 
-    .contenedor nav label {
+    /* .contenedor nav label {
         display: none;
-    }
+    } */
 
     .contenedor nav .line {
         display: none;
